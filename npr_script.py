@@ -5,7 +5,7 @@
 from urllib2 import urlopen
 from json import load
 
-key = "API_KEY"
+key = "MDEzNzcwNjkzMDEzOTk5ODY1MjdlYjFmMg001"
 
 def parse_station_json(json_obj):
     for station in json_obj["station"]:
